@@ -1,0 +1,1 @@
+SALES LY = CALCULATE([Total_Sales],SAMEPERIODLASTYEAR('Dates Query'[Date]))
