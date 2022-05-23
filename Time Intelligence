@@ -1,1 +1,4 @@
 SALES LY = CALCULATE([Total_Sales],SAMEPERIODLASTYEAR('Dates Query'[Date]))
+Prev Day Sales (DATEADD) = CALCULATE([Total_Sales],DATEADD('Dates Query'[Date],-1,DAY))
+Same Day Prev Month Sales (DATEADD) = CALCULATE([Total_Sales],DATEADD('Dates Query'[Date],-1,MONTH))
+MTD Sales (DATESMTD) = CALCULATE([Total_Sales],DATESMTD('Dates Query'[Date]))
