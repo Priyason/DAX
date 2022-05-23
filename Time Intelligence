@@ -1,3 +1,4 @@
+[Time Intelligence]
 SALES LY = CALCULATE([Total_Sales],SAMEPERIODLASTYEAR('Dates Query'[Date]))
 Prev Day Sales (DATEADD) = CALCULATE([Total_Sales],DATEADD('Dates Query'[Date],-1,DAY))
 Same Day Prev Month Sales (DATEADD) = CALCULATE([Total_Sales],DATEADD('Dates Query'[Date],-1,MONTH))
